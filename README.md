@@ -69,6 +69,10 @@ CMD [ "python", "./Dos-ML.py" ]
 ```
 scikit-learn
 pandas
+streamlit
+matplotlib
+pillow
+plotly
 numpy
 ```
 ## Jenkins Job-3 - automatically mount the path and train the cluster and give the output in result.txt file.
