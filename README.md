@@ -74,7 +74,7 @@ CMD [ "python", "./fate6.py" ]
 ![image](https://user-images.githubusercontent.com/64476159/163685738-cdb96d32-4762-4617-a9fe-ce65bba78594.png)
 
 ## Jenkins Jobs View
-![image](https://user-images.githubusercontent.com/64476159/163685761-6739df55-4fcf-4223-9a4a-56595d807883.png)
+
 
 ## Jenkins Pipeline View
 
