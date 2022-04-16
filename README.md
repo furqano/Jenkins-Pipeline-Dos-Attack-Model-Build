@@ -40,7 +40,7 @@ def log(log_down):
 
 ## Jenkins Job-2 - created a Dockerfile to Build a Container Image with all the dependencies required for the Machine Learning Cluster .
 
-![image](https://user-images.githubusercontent.com/64476159/163685658-b8afc933-18cb-4ed2-aeb7-b09458cceeb3.png)
+![image](https://user-images.githubusercontent.com/64476159/163688091-25580f85-6b3c-41f9-87b5-5cd20568ccd4.png)
 
 ## Dockerfile
 
@@ -68,10 +68,11 @@ CMD [ "python", "./fate6.py" ]
 
 ## Jenkins Job-3 - automatically mount the path and train the cluster and give the output in result.txt file.
 ![image](https://user-images.githubusercontent.com/64476159/163685694-8afdea9b-e4be-4965-a59d-6b33bca86f06.png)
+![image](https://user-images.githubusercontent.com/64476159/163688112-8242a036-b826-4ee1-a9d9-01b1a2f3cbfa.png)
 
 
 ## Jenkins Job-4 - to read the result.txt file and block the IP using iptables.
-![image](https://user-images.githubusercontent.com/64476159/163685738-cdb96d32-4762-4617-a9fe-ce65bba78594.png)
+![image](https://user-images.githubusercontent.com/64476159/163688158-47580286-0193-437b-bf07-d3b3cee92c1b.png)
 
 ## Jenkins Jobs View
 
