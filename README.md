@@ -78,7 +78,7 @@ CMD [ "python", "./fate6.py" ]
 
 ## Jenkins Pipeline View
 
-![image](https://user-images.githubusercontent.com/64476159/163685777-4be9db0c-d983-46a4-b76b-7602185f2168.png)
+
 
 ## Python Code for K-Means Clustering
 ```
