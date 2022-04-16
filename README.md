@@ -63,7 +63,7 @@ RUN pip install --no-cache-dir -r req.txt
 COPY . .
 
 
-CMD [ "python", "./fate6.py" ]
+CMD [ "python", "./Dos-ML.py" ]
 ```
 
 ## Jenkins Job-3 - automatically mount the path and train the cluster and give the output in result.txt file.
