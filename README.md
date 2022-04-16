@@ -42,6 +42,29 @@ def log(log_down):
 
 ![image](https://user-images.githubusercontent.com/64476159/163685658-b8afc933-18cb-4ed2-aeb7-b09458cceeb3.png)
 
+## Dockerfile
+
+```
+FROM python:3
+
+
+WORKDIR /usr/src/mlops
+
+
+COPY req.txt ./
+
+
+RUN pip install --upgrade pip 
+
+
+RUN pip install --no-cache-dir -r req.txt
+
+
+COPY . .
+
+
+CMD [ "python", "./fate6.py" ]
+```
 
 ## Jenkins Job-3 - automatically mount the path and train the cluster and give the output in result.txt file.
 ![image](https://user-images.githubusercontent.com/64476159/163685694-8afdea9b-e4be-4965-a59d-6b33bca86f06.png)
