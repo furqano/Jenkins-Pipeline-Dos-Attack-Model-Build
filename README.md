@@ -65,7 +65,12 @@ COPY . .
 
 CMD [ "python", "./Dos-ML.py" ]
 ```
-
+## Requirements
+```
+scikit-learn
+pandas
+numpy
+```
 ## Jenkins Job-3 - automatically mount the path and train the cluster and give the output in result.txt file.
 ![image](https://user-images.githubusercontent.com/64476159/163685694-8afdea9b-e4be-4965-a59d-6b33bca86f06.png)
 ![image](https://user-images.githubusercontent.com/64476159/163688112-8242a036-b826-4ee1-a9d9-01b1a2f3cbfa.png)
